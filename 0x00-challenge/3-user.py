@@ -6,12 +6,12 @@ import hashlib
 import uuid
 
 
-class User():
-    """
-    User class:
-    - id: public string unique (uuid)
-    - password: private string hash in MD5
-    """
+    class User():
+        """
+        User class:
+        - id: public string unique (uuid)
+        - password: private string hash in MD5
+        """
 
         __password = None
 
